@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official privacy policy for Lucerna, an Android application for creating and viewing PDF documents.">
+  <meta name="robots" content="index, follow">
+  <title>Lucerna — Privacy Policy</title>
+
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f4f6fb;
+      --surface: #ffffff;
+      --text: #17243b;
+      --muted: #596579;
+      --border: #e2e8f0;
+      --accent: #3157c8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    header {
+      background: #15213b;
+      color: #ffffff;
+      padding: 48px 22px;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      color: #c6d2ff;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+    }
+
+    header p {
+      margin: 0;
+      color: #e1e7f4;
+    }
+
+    main {
+      max-width: 850px;
+      margin: 28px auto;
+      padding: clamp(22px, 5vw, 46px);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 10px 35px rgba(21, 33, 59, 0.05);
+    }
+
+    .effective-date {
+      display: inline-block;
+      padding: 5px 12px;
+      background: #f3f5fa;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    h2 {
+      margin: 30px 0 8px;
+      font-size: 1.2rem;
+      line-height: 1.4;
+    }
+
+    p {
+      color: #344054;
+    }
+
+    a {
+      color: var(--accent);
+      overflow-wrap: anywhere;
+    }
+
+    .contact {
+      padding: 16px 18px;
+      background: #fafbfe;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    footer {
+      padding: 0 18px 34px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 34px 20px;
+      }
+
+      main {
+        margin: 14px;
+        border-radius: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="eyebrow">Lucerna · Privacy</div>
+      <h1>Privacy Policy</h1>
+      <p>
+        Clear information about how Lucerna handles PDF documents
+        and information when you use the app.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <p class="effective-date">
+      <strong>Effective date:</strong> October 14, 2026
+    </p>
+
+    <p>
+      This Privacy Policy applies to Lucerna ("the App"), an Android
+      application for creating and viewing PDF documents. It explains
+      how the App is intended to handle documents, permissions,
+      and information.
+    </p>
+
+    <h2>1. Documents and Local Storage</h2>
+
+    <p>
+      Lucerna is designed to create and view PDF documents on your
+      device. An internet connection is not required for its core
+      PDF creation and viewing functionality. Documents are saved
+      in locations provided or selected by you, subject to Android's
+      storage features and the App's implementation.
+    </p>
+
+    <p>
+      The App's core PDF functionality is designed for local document
+      handling and does not require uploading PDFs to a
+      Lucerna-operated cloud service. A PDF may contain personal or
+      sensitive information depending on what you put in it.
+    </p>
+
+    <h2>2. Personal Information and Accounts</h2>
+
+    <p>
+      The core PDF functionality does not require you to create an
+      account or provide personal information to the developer.
+      The developer does not intentionally collect the contents of
+      locally stored PDFs through the App's core offline functionality.
+    </p>
+
+    <p>
+      These statements describe the intended core functionality.
+      The actual release build and its included software libraries
+      must be checked for any additional collection or processing of
+      information. If any component collects information, this policy
+      must accurately describe those practices.
+    </p>
+
+    <h2>3. Permissions and Files</h2>
+
+    <p>
+      Depending on the Android version and the actions you take,
+      Lucerna may use Android's document picker or related file-access
+      capabilities to open, create, save, or export PDFs. Access is
+      subject to Android's permission system and the access you grant.
+    </p>
+
+    <p>
+      You can manage supported permissions through your device
+      settings. Files remain subject to the storage location and
+      settings where you save them and can be managed using the
+      appropriate file-management tools.
+    </p>
+
+    <h2>4. Sharing and Third-Party Apps</h2>
+
+    <p>
+      If you choose to share or export a PDF using another app,
+      service, or recipient, you direct that transfer. The receiving
+      app or service may access, transmit, or retain the document
+      under its own terms and privacy policy. Review those practices
+      before sharing confidential information.
+    </p>
+
+    <p>
+      If a released version of Lucerna includes analytics,
+      crash-reporting, advertising, online services, or other
+      third-party components that process information, the relevant
+      practices must be disclosed in this policy.
+    </p>
+
+    <h2>5. Data Retention and Deletion</h2>
+
+    <p>
+      PDF files you save remain in the selected device or storage
+      location until you delete them or the relevant storage system
+      removes them. Delete saved files using the App, where supported,
+      or the applicable file-management tools.
+    </p>
+
+    <p>
+      This policy does not describe a separate server-side retention
+      period for PDF documents because the App's core functionality
+      is designed for local handling rather than developer-operated
+      cloud storage.
+    </p>
+
+    <h2>6. Data Security</h2>
+
+    <p>
+      Local processing can reduce the need to transmit documents
+      to remote services, but it does not guarantee security in
+      every circumstance. Security also depends on your device,
+      access controls, storage location, backups, and any app or
+      recipient with which you share a file. No electronic storage
+      or transmission method can be guaranteed completely secure.
+    </p>
+
+    <h2>7. Children's Privacy</h2>
+
+    <p>
+      The App's intended audience and any applicable Google Play
+      Families requirements must be assessed separately. The App
+      should not be used to collect children's personal information
+      in violation of applicable law.
+    </p>
+
+    <h2>8. Changes to This Policy</h2>
+
+    <p>
+      This policy may be revised if Lucerna's features, permissions,
+      technical components, or data practices change. The latest
+      version will be published at this webpage, with the effective
+      date updated when appropriate.
+    </p>
+
+    <h2>9. Contact</h2>
+
+    <div class="contact">
+      <p><strong>App:</strong> Lucerna</p>
+      <p>
+        <strong>Privacy contact:</strong>
+        <a href="mailto:d3457ur124a@gmail.com">
+          d3457ur124a@gmail.com
+        </a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Lucerna. Privacy Policy.
+  </footer>
+</body>
+</html>
